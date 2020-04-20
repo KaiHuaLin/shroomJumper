@@ -17,7 +17,7 @@ Either use github the way you want, or follow these instructions for the desktop
 4. On this page, click the green clone or download button near the top right and copy the URL.
 5. Paste into the github app clone repository area, put it any folder you want I guess.
 6. You should now be able to start Unity and open the project.
-* Note: there might be some issue that says something about supporting windows and switching target to mac, or vice versa, just hit yes. It might take a second then the project should be able to be loaded.
+* Note: there might be some issue that says something about an unsupported build target, just click "SwitchTarget". It might take a second then the project should be able to be loaded.
 
 
 ## Committing changes
