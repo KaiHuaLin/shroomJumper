@@ -22,4 +22,7 @@ Either use github the way you want, or follow these instructions for the desktop
 
 # Committing changes
 This will probably only work once you've been added as a collaborator, so make sure to do that.
-If you try to push changes when you're not a collaborator, it will probably ask if you want to make a fork, so in that case something is messed up. 
+If you try to push changes when you're not a collaborator, it will probably ask if you want to make a fork, so in that case something is messed up.
+
+
+eric 
