@@ -10,10 +10,12 @@ public class CharacterControl : MonoBehaviour
     private CapsuleCollider2D col;
     private Vector2 moveVec;
 
+    public GameObject Text;
 
     // Start is called before the first frame update
     void Start()
     {
+        //Text.SetActive(false);
         col = GetComponent<CapsuleCollider2D>();//assign compenent to variable
     }
 
@@ -31,6 +33,11 @@ public class CharacterControl : MonoBehaviour
                 moveVec.y = Mathf.Sqrt(2 * jumpStrength * Mathf.Abs(Physics2D.gravity.y));
             }
 		}
+
+        if (Input.GetKey(KeyCode.Space)&&(!grounded))
+        {
+            moveVec.y = Mathf.Sqrt(2 * jumpStrength * Mathf.Abs(Physics2D.gravity.y));
+        }
 
         moveVec.y += Physics2D.gravity.y * Time.deltaTime;
 
