@@ -20,6 +20,7 @@ public class coinScript : MonoBehaviour
     {
         if (col.gameObject.name=="player")
         {
+            scoreboardScript.coinAmount += 1;
             Destroy(gameObject);
         }
     }
