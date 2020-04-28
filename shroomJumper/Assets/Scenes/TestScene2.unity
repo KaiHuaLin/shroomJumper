@@ -154,7 +154,7 @@ MonoBehaviour:
   walkAccel: 20
   jumpAccel: 10
   speed: 8
-  jumpStrength: 8
+  jumpStrength: 9
   groundDecel: 40
   Text: {fileID: 0}
 --- !u!70 &25625354
