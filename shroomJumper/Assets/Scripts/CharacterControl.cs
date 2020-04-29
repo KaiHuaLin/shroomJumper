@@ -75,7 +75,7 @@ public class CharacterControl : MonoBehaviour
 
             ColliderDistance2D colliderDistance = otherCol.Distance(col);
 
-            if (colliderDistance.isOverlapped)
+            if (colliderDistance.isOverlapped && ! otherCol.isTrigger)
             {
                 transform.Translate(colliderDistance.pointA - colliderDistance.pointB);
                 if (Vector2.Angle(colliderDistance.normal, Vector2.up) < 90 && moveVec.y < 0)
