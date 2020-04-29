@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class CharacterControl : MonoBehaviour
 {
+    Scene currentScene;
+    string sceneName;
 
     public float walkAccel = 20f; //acceleration while grounded
     public float jumpAccel = 10f; //acceleration while airborne
@@ -16,12 +20,15 @@ public class CharacterControl : MonoBehaviour
     private Vector2 moveVec;
 
     public GameObject Text;
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
         //Text.SetActive(false);
         col = GetComponent<CapsuleCollider2D>();//assign compenent to variable
+        currentScene = SceneManager.GetActiveScene();
+        sceneName = currentScene.name;
     }
 
     // Update is called once per frame
@@ -88,6 +95,10 @@ public class CharacterControl : MonoBehaviour
                 moveVec.y = 0;
             }
         }
-
+        
+        
+        if(player.transform.position.y < -20f){
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }
