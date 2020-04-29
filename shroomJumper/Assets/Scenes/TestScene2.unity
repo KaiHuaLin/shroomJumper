@@ -157,6 +157,7 @@ MonoBehaviour:
   jumpStrength: 9
   groundDecel: 70
   Text: {fileID: 0}
+  player: {fileID: 25625352}
 --- !u!70 &25625354
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
