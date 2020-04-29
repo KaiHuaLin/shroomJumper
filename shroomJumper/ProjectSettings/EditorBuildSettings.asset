@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 40b6ea1d2bffe4e7090dc4f8a23f4694
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/SnowScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/TestScene2-old.unity
+    guid: bc197c2f1b57028409c0762246e76d2c
+  - enabled: 1
+    path: Assets/Scenes/TestScene2.unity
+    guid: 1db2be0bcdf4a458ebabfd3f52c23cf5
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: 31395f2f980ec4966811a97942df41df

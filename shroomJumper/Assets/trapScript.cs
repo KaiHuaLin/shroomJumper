@@ -22,7 +22,7 @@ public class trapScript : MonoBehaviour
         if (col.gameObject.name == "player")
         {
             print("HIT!");
-            SceneManager.LoadScene("TestScene2");
+            SceneManager.LoadScene("snowScene");
         }
     }
 }
