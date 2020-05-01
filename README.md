@@ -1,6 +1,9 @@
 # shroomJumper
 A game for CMP_SC 4610 final project, inspired by original Mario type platforming games. Built in Unity and C#
 
+Here is a demo video: https://www.youtube.com/watch?v=mknZ_FgiwRY
+
+
 # Setting up for development
 ## Install Unity
 To work on this game you should [download Unity here](https://unity.com/)
